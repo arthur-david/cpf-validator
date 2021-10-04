@@ -2,6 +2,8 @@
 
 A mini project to calculate and validate CPFs. Based on a challenge proposed to create a program to validate CPFs in Python, RegEx was also used to do a part of the validation, the other validations were done according to the standard CPF calculation.
 
+<br/>
+
 ## 🛠 Technologies
 
 - [Python](https://www.python.org/)
@@ -9,8 +11,8 @@ A mini project to calculate and validate CPFs. Based on a challenge proposed to 
 
 <br/>
 
----
 ## :bust_in_silhouette: Author
+
 <br/>
 
 <a href="https://github.com/arthur-david">
