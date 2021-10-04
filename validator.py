@@ -2,8 +2,7 @@ def validator(cpf):
     if len(cpf) == 11:
         cpf = cpf[:3] + "." + cpf[3:6] + "." + cpf[6:9] + "-" + cpf[9:]
 
-    prototype_cpf = cpf.split("-")[0]
-    prototype_cpf = prototype_cpf.replace(".", "")
+    prototype_cpf = cpf.split("-")[0].replace(".", "")
 
     prototype_cpf += _calculator_cpf(prototype_cpf)
     prototype_cpf += _calculator_cpf(prototype_cpf)
